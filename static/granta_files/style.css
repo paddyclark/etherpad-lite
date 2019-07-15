@@ -1,0 +1,720 @@
+@charset "UTF-8";
+/* CSS Main stylesheet&mdash;beth added h4 and caption may 31st, copied in topbar, firstrow, secondrow june 1st*/
+/* beth added events table things June 2 */
+/* beth made hr black and size one. Can you check this and ie it? */
+
+
+body {
+	background-image:url(/images/2011/bg.jpg);
+	background-repeat:repeat-x;
+	background-color:#FFF;
+	margin:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size:12px;
+}
+
+#container {
+	width:955px;
+	margin-left:auto;
+	margin-right:auto;
+	border:#FFF solid 1px;
+	margin-top:10px;
+	background-color:#ececec;
+}
+
+#header {
+	background-color:#ededed;
+	height:82px;
+}
+
+.partner {
+	float:right;
+	padding-right:450px;
+}
+
+.nav-container {
+	background-color:#ececec;
+	height:43px;
+}
+
+.nav {
+	height:41px;
+	background-image:url(/images/2011/nav-bg.png);
+	background-repeat:repeat-x;
+	width:915px;
+	margin-left:20px;
+	background-color:#fff;
+}
+
+.nav-links {
+	float:left;
+	margin-left:-16px;
+	padding-top:2px;
+	margin-bottom:0px;
+}
+
+.nav-links ul {
+	list-style:none;
+	padding:0px;
+	padding-left:-10px;
+	font-size:12px;
+}
+
+.nav-links li {
+	padding-right:40px;
+	display:inline;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-links a:link { COLOR: #979797; font-size:14px; TEXT-DECORATION: none }
+.nav-links a:hover { COLOR: #000; font-size:14px; TEXT-DECORATION: none }
+.nav-links a:visited { COLOR: #979797; font-size:14px; TEXT-DECORATION: none }
+.nav-links a:visited:hover { COLOR: #000; font-size:14px; TEXT-DECORATION: none 
+}
+
+.subnav {
+	float:right;
+	width:307px;
+	height:40px;
+	background-color:#FFF;
+	margin-right:20px;
+	margin-top:41px;
+	border-top:#CCC 1px solid;
+}
+
+#search-right-box {
+	float:right;
+	background-image:url(/images/2011/right-searchbox-bg.gif);
+	background-repeat:no-repeat;
+	width:180px;
+	height:30px;
+	margin-top:7px;
+}
+
+.small-search {
+	float:left;
+	border:#fafafa solid 1px;
+	height:18px;
+	margin-left:5px;
+	margin-top:6px;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#999;
+	background:transparent;
+}
+
+.go-button-small {
+	padding-top:8px;
+	margin-left:0px;
+}
+
+.content {
+	width:915px;
+	margin-left:20px;
+	background-color:#FFF;
+	overflow: auto;
+	padding-bottom:10px;
+}
+
+
+.normal-content {
+	padding:20px;
+	padding-top:1px;
+	text-align:left;
+	margin-left:13px;
+
+}
+
+h1 {
+	font-size:24px;
+	color:#d87e06;
+	letter-spacing:-1px;
+	padding-bottom:5px;
+	text-align:left;
+
+}
+
+h2 {
+	font-size:18px;
+	color:#666666;
+	letter-spacing:-1px;
+	padding-bottom:10px;
+	margin:0px;
+	padding-top:4px;
+	text-align:left;
+}
+
+h3 {
+	font-size:14px;
+	color:#666666;
+	padding-bottom:0px;
+	margin:0px;
+	padding-top:6px;
+	text-align:left;
+
+}
+
+h4 {
+	font-size:13px;
+	color:#666666;
+	padding-bottom:2px;
+	margin:0px;
+	padding-top:4px;
+	text-align:left;
+
+}
+
+/* added by beth not tested cross browser */
+li {
+	margin-top:0.25em;
+	margin-bottom:0.25em;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	text-align: left;
+}
+
+td
+{
+text-align:left;
+vertical-align:top;
+}
+
+/* added by beth not tested cross browser */
+.caption {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	color: #999999;
+	padding-top: 0px;
+	text-align:center;
+}
+.white {
+	color: #FFFFFF;
+}
+/* added by beth not tested cross browser */
+.small_table_font {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+a:link { COLOR: #1d4e8d; TEXT-DECORATION: none }
+a:hover { COLOR: #1d4e8d;  TEXT-DECORATION: underline }
+a:visited { COLOR: #1d4e8d;  TEXT-DECORATION: none }
+a:visited:hover { COLOR: #1d4e8d;  TEXT-DECORATION: underline
+}
+
+.latest {
+	width:910px;
+	padding-bottom:20px;
+}
+
+.home-links {
+	float:right;
+	width:210px;
+	height:100px;
+	text-align:left;
+	margin-left:25px;
+	margin-top:37px;
+	font-weight:bold;
+	
+}
+
+.home-links a:link { COLOR: #000; font-size:14px; TEXT-DECORATION: none }
+.home-links a:hover { COLOR: #999; font-size:14px; TEXT-DECORATION: none }
+.home-links a:visited { COLOR: #000; font-size:14px; TEXT-DECORATION: none }
+.home-links a:visited:hover { COLOR: #999; font-size:14px; TEXT-DECORATION: none 
+}
+
+.footer {
+	clear:both;
+		background-color:#ededed;
+		height:14px;
+		}
+
+.foottxt {
+	background-color:#f3f3f3;
+	padding:10px;
+	color:#999;	
+}
+.foottxt a:link { COLOR: #999;  TEXT-DECORATION: none; font-weight:normal }
+.foottxt a:hover { COLOR: #666;  TEXT-DECORATION: none; font-weight:normal }
+.foottxt a:visited { COLOR: #999;  TEXT-DECORATION: none; font-weight:normal }
+.foottxt a:visited:hover { COLOR: #666;  TEXT-DECORATION: none; font-weight:normal 
+}
+/* language drop down */
+
+#sddm
+{	position:absolute;
+	margin-top: 10px;
+	padding-left: 4px;
+	z-index: 3;
+}
+
+#sddm li
+{
+	padding-left:5px;
+	list-style: none;
+	float: left;
+	padding-right:4px;
+	font: 12px arial;
+}
+
+#sddm li a
+{
+	background: #fff;
+	color: #999;
+	text-align: center;
+	text-decoration: none
+}
+
+#sddm li a:hover
+{	background: #fff;
+color:#000;}
+
+#sddm div
+{	
+	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	margin-top:2px;
+	background: #fff;
+	width:95px;
+	border: 1px solid #d2d2d2;
+	z-index: 3;
+		}
+
+	#sddm div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 10px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #fff;
+		color: #999;
+		font: 13px arial;
+		z-index: 2}
+
+	#sddm div a:hover
+	{	background: #333;
+		color: #FFF;
+		}
+		
+.edu {
+	float:right;
+	width:303px;
+}
+
+.edu-event {
+	height:69px;
+	width:303px;
+	background-image:url(/images/2011/home/edu-event.jpg);
+	background-repeat:no-repeat;
+}
+
+.edu-event-link {
+	padding-top:19px;
+	padding-left:30px;
+	text-transform:uppercase;
+}
+
+#contentwrap {
+	padding:20px;
+}
+
+#leftcolumn {
+	float:left;
+	background-color:#f5f5f5;
+	width:207px;
+	margin-bottom:20px;
+}
+
+#columnblack {
+	background-color:#000;
+	margin-bottom:20px;
+	margin-top:20px;
+	min-height: 1320px;
+}
+
+#leftcolumnblack {
+	float:left;
+	margin-bottom:0px;
+}
+
+#centrecolumn {
+	float:left;
+	background-color:#FFF;
+	width:658px;
+	margin-left:10px;
+}
+
+#centrecolumnwider {
+	float:left;
+	background-color:#FFF;
+	width:658px;
+	padding-left:10px;
+	margin-left:0px;
+}
+
+.main-content-style {
+	text-align:justify;
+}
+
+#rightcolumn {
+	float:right;
+	background-color:#f5f5f5;
+	width:171px;
+	margin-top:10px;
+	margin-left:10px;
+	margin-bottom:5px;
+	text-align:left;
+}
+
+#rightcolumn-blue {
+	float:right;
+	background-image:url(../images/webinar-bg.jpg);
+	width:171px;
+	margin-top:0px;
+	margin-left:10px;
+	margin-bottom:5px;
+	text-align:left;
+}
+
+
+#rightcolumn-jobs {
+	float:right;
+	background-color:#ffffff;
+	width:190px;
+	margin-top:10px;
+	margin-left:10px;
+	margin-bottom:5px;
+	text-align:left;
+	margin-right:10px;
+	border:#f3f3f3 solid 1px;
+}
+
+.bread {
+	background-image:url(/images/2011/breadbg.gif);
+	background-repeat:no-repeat;
+	height:31px;
+}
+
+.breadcrumb {
+	padding:8px;
+}
+
+.breadcrumb a:link { COLOR: #d87e06;  TEXT-DECORATION: none; font-weight:normal }
+.breadcrumb a:hover { COLOR: #333;   TEXT-DECORATION: none; font-weight:normal }
+.breadcrumb a:visited { COLOR: #d87e06;  TEXT-DECORATION: none; font-weight:normal }
+.breadcrumb a:visited:hover { COLOR: #333;  TEXT-DECORATION: none; font-weight:normal  
+}
+
+.print {
+	float:right;
+}
+	
+.right-column-padding {
+	padding:10px;
+}
+
+.right-column-padding-jobs {
+	padding:10px;
+}
+
+
+
+/*tables&mdash;added by Beth June 1 */
+
+.topbar
+{
+	color               : #444444;
+	background-color    : #ececec;
+	padding-left        : 5px;
+	padding-right       : 5px;
+	text-align          : left;
+	vertical-align      : top;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.firstRow
+{
+    background-color    : #F5F5F5;
+	vertical-align      : top;
+
+}
+.secondRow
+{
+    background-color    : #e7e7e7;
+	vertical-align      : top;
+
+}
+
+.navon {
+	color:#000000;
+}
+
+ /*calendar tab colours*/
+.granta-meeting {
+	background-color:#A81D4E;
+	width:10px;
+	height:30px;
+	float:left;
+	margin-right:5px;
+}
+
+.conference-calendar {
+	background-color:#D98D27;
+	width:10px;
+	height:30px;
+	float:left;
+	margin-right:5px;
+}
+
+.granta-web-event {
+	background-color:#182A55;
+	width:10px;
+	height:30px;
+	float:left;
+	margin-right:5px;
+}
+
+.granta-edu-web-event {
+	background-color:#70a835;
+	width:10px;
+	height:30px;
+	float:left;
+	margin-right:5px;
+}
+.granta-courses {
+	background-color:#0066ff;
+	width:10px;
+	height:30px;
+	float:left;
+	margin-right:5px;
+	
+}
+
+.training-webex {
+	background-color:#630;
+	width:10px;
+	height:30px;
+	float:left;
+	margin-right:5px;
+	
+}
+
+.event-cal {
+	margin-top:8px;
+}
+
+.calendar-bg {
+	background-color: #F5F5F5;
+	vertical-align: top;
+	text-align:left;
+}
+
+.consortium-calendar {
+	background-color:#666766;
+	width:10px;
+	height:30px;
+	float:left;
+	margin-right:5px;
+}
+
+  
+.consortium {
+	margin-top:4px;
+}
+
+.calendar {
+	background-color:#001363;
+	color:#FFF;
+	font-weight:bold;
+}
+
+.calendar-headers {
+	background-color:#515151;
+	color:#FFF;
+	font-weight:bold;
+}
+
+/* Left nav here */
+
+.left-column-nav {
+	margin: 0;
+	padding: 0;
+	list-style:none;
+}
+
+.left-column-nav a {
+	display: block;
+	text-decoration: none;
+	padding: 8px 8px 8px 18px;
+	color: #666666;
+	font-weight: normal;
+	background-color: #F5F5F5;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #dfdfdf;
+	margin-bottom:-8px;
+	font-size:14px;
+
+}
+.left-column-nav a:hover {
+	color: #fff;
+	background-color: #ccc;
+	text-decoration:none;
+}
+
+.left-column-nav a:visited {
+	color: #666666;
+}
+
+.left-column-nav a:visited:hover {
+	color: #fff;
+}
+
+.left-column-nav-ON a {
+	display: block;
+	text-decoration: none;
+	padding: 8px 8px 8px 18px;
+	color: #666666;
+	font-weight: normal;
+	background-color: #F5F5F5;
+	border-bottom: 1px solid #dfdfdf;
+	border-top: 1px solid #fff;
+	background-image: url(/images/2011/p7ap_east_med_gray.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.sub-nav {
+	margin-top:5px;
+	margin-bottom:10px;
+}
+
+.sub-nav a {
+	padding: 8px 8px 8px 5px;
+	border-bottom: 0px solid #dfdfdf;
+	border-top: 0px solid #fff;
+}
+.sub-nav a:hover {
+	padding: 8px 8px 8px 5px;
+	border-bottom: 0px solid #dfdfdf;
+	border-top: 0px solid #fff;
+	background-color: #F5F5F5;
+	color:#000;
+}
+
+.sub-nav a:hover:visited {
+	padding: 8px 8px 8px 5px;
+	border-bottom: 0px solid #dfdfdf;
+	border-top: 0px solid #fff;
+	background-color: #F5F5F5;
+	color:#000;
+}
+
+.sub-nav-on {
+	padding-top:12px;
+	margin-left:5px;
+}
+
+#wrapper {
+	text-align: left;
+	margin: 0px auto;
+	padding: 0px;
+	border:0;
+	width: 914px;
+}
+
+
+#side-a {
+	margin:10px;
+	float: left;
+	width: 270px;
+}
+
+#side-b {
+	margin:10px;
+	float: right;
+	width: 300px;
+}
+
+#content { 
+	margin-top:10px;
+	float: left;
+	width:280px;
+	margin-left:10px;
+}
+
+.solutionlink {
+	padding:5px;
+	padding-top:11px;
+	font-size:14px;
+}
+
+.solutionlink a:link { COLOR: #7a7a7a;  TEXT-DECORATION: none; font-weight:normal }
+.solutionlink a:hover { COLOR: #ccc;   TEXT-DECORATION: none; font-weight:normal }
+.solutionlink a:visited { COLOR: #7a7a7a;  TEXT-DECORATION: none; font-weight:normal }
+.solutionlink a:visited:hover { COLOR: #ccc;  TEXT-DECORATION: none; font-weight:normal  
+}
+
+.solutionlinkb {
+	padding:5px;
+	padding-top:11px;
+	font-size:14px;
+}
+
+.solutionlinkb a:link { COLOR: #000;  TEXT-DECORATION: none; font-weight:normal }
+.solutionlinkb a:hover { COLOR: #ccc;   TEXT-DECORATION: none; font-weight:normal }
+.solutionlinkb a:visited { COLOR: #000;  TEXT-DECORATION: none; font-weight:normal }
+.solutionlinkb a:visited:hover { COLOR: #ccc;  TEXT-DECORATION: none; font-weight:normal  
+}
+
+.black {
+	color:#000000;
+}
+.eduhome {
+	padding-left:0px;
+	border-bottom: #CCC 1px solid;
+}
+
+.eduhome a:link { COLOR: #7a7a7a;  TEXT-DECORATION: none; font-weight:normal }
+.eduhome a:hover { COLOR: #000;   TEXT-DECORATION: none; font-weight:normal }
+.eduhome a:visited { COLOR: #7a7a7a;  TEXT-DECORATION: none; font-weight:normal }
+.eduhome a:visited:hover { COLOR: #000;  TEXT-DECORATION: none; font-weight:normal  
+}
+
+.newshome a:link { COLOR: #7a7a7a;  TEXT-DECORATION: none; font-weight:normal }
+.newshome a:hover { COLOR: #000;   TEXT-DECORATION: none; font-weight:normal }
+.newshome a:visited { COLOR: #7a7a7a;  TEXT-DECORATION: none; font-weight:normal }
+.newshome a:visited:hover { COLOR: #000;  TEXT-DECORATION: none; font-weight:normal  
+}
+
+.solutionsextra {
+	height:30px;
+	width:270px;
+	background-image:url(/images/2011/home/solutionsbg.gif);
+	background-repeat:repeat-x;
+}
+
+/* beth made hr black and size one. Can you check this and ie it? */
+hr {
+	size:1;
+	color:#000000;
+}
+
+.print-header {
+display: none;
+	}
+	
+.language-drop {
+	width:270px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#000000;
+	border:1px #CCCCCC solid;
+}
